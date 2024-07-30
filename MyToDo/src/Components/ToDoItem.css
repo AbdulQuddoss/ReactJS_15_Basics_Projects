@@ -1,0 +1,42 @@
+.toDoItem-container{
+    display: flex;
+    flex-direction: row;
+}
+.toDoItem-container .toDoText{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.toDoItem-container .btn-list{
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 8rem;
+}
+.toDoItem-container .btn-list > button{
+    height: 1.5rem;
+    background: dimgray;
+    border: none;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+.toDoItem-container .btn-list > .edit{
+  width: 2rem;
+}
+.toDoItem-container .btn-list > .remove{
+  width: 4rem;
+}
+.toDoItem-container .toDoText {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.toDoItem-container .toDoText > {
+  max-height: 28px;
+  margin: 0;
+  overflow-y: scroll;
+}
+.toDoItem-container .toDoText > p{
+  margin-bottom: 0;
+  text-align: left;
+}
